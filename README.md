@@ -47,13 +47,11 @@ msc
 
 ### High speed host
 ```
-Currently, only full speed devices can be enumerated
+Currently, some high-speed MSC devices may fail in testing.
 ```
 
 ###  Content waiting for repair
-
 ```
-1、Enumerate high speed devices for high speed hosts.
-2、Under full speed host, some USB devices may fail to enumerate.
-3、Synchronous transmission of hosts and devices.
+1、Under high-speed and full speed hosts, some MSC devices may fail to enumerate.
+2、Synchronous transmission of hosts and devices.
 ```
