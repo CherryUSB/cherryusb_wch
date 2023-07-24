@@ -23,10 +23,6 @@ int main(void)
     while (1) {
         extern void hid_mouse_test(void);
         hid_mouse_test();
-        sleep_ms(1);
-        uint8_t zero_data[4] = { 0 };
-        usbd_ep_start_write(HID_INT_EP, zero_data, 4);
-        sleep_ms(2000);
     }
     return 0;
 }
