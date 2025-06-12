@@ -1,4 +1,9 @@
-# This is the WCH MCU CherryUSB demo project
+# CherryUSB wch
+
+仅支持从机！！！！
+
+- **makefile 版本仅支持 v0.10.x**
+- **mrs_project 为目前最新版本 v1.5.0，不再使用 makefile构建，cherryusb 从外部导入，建议放在 mrs_project 目录下**
 
 ## USB Device
 
@@ -6,11 +11,11 @@
 cd examples/usb_device/xxx
 
 make
-or
-1、make BOARD=ch582evt    // Building the USB device demo for ch582
-2、make BOARD=ch32v307evt // Building the USB device demo for ch32v307
+或者
+1、make BOARD=ch582evt    // 构建ch582的usb device demo
+2、make BOARD=ch32v307evt // 构建ch32v307的usb device demo
 
-When BOARD is not specified, the default is to build the ch32v307 USB device demo for you.
+当不指定BOARD的时候，默认将为你构建ch32v307的usb device demo
 ```
 
 ## USB Host
@@ -19,14 +24,15 @@ When BOARD is not specified, the default is to build the ch32v307 USB device dem
 cd examples/usb_host
 
 make
-or
-1、make BOARD=ch582evt    // Building the USB host demo for ch582
-2、make BOARD=ch32v307evt // Building the USB host demo for ch32v307
+或者
+1、make BOARD=ch582evt    // 构建ch582的usb host demo
+2、make BOARD=ch32v307evt // 构建ch32v307的usb host demo
 
-When the BOARD is not specified, the ch32v307 USB host demo will be built for you by default
+当不指定BOARD的时候，默认将为你构建ch32v307的usb host demo
 ```
-## Examples of successful testing
-### Full speed and high speed device
+
+## 成功测试的示例
+### 全速和高速设备
 ```
 cdc_acm
 cdc_msc
@@ -37,21 +43,4 @@ hid_custom
 hid_kbd
 hid_mouse
 msc_ram
-```
-
-### Full speed host
-```
-hid
-msc
-```
-
-### High speed host
-```
-Currently, some high-speed MSC devices may fail in testing.
-```
-
-###  Content waiting for repair
-```
-1、Under high-speed and full speed hosts, some MSC devices may fail to enumerate.
-2、Synchronous transmission of hosts and devices.
 ```
