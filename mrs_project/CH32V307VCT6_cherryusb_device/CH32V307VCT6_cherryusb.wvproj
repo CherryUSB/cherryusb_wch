@@ -15,7 +15,7 @@
 		"linkedFolders": [
 			{
 				"name": "cherryusb",
-				"location": "../cherryusb"
+				"location": "../../cherryusb"
 			}
 		],
 		"removedResources": [
@@ -77,27 +77,33 @@
 					"${project}/cherryusb/osal",
 					"${project}/cherryusb/core/usbh_core.c",
 					"${project}/cherryusb/core/usbotg_core.c",
-					"${project}/cherryusb/class/hub",
-					"${project}/cherryusb/class/video",
+					"${project}/cherryusb/demo",
+					"${project}/cherryusb/port/ch32/usb_dc_usbhs.c",
+					"${project}/cherryusb/port/ch32/ch58x",
+					"${project}/cherryusb/core/usbotg_core.h",
+					"${project}/cherryusb/core/usbh_core.h",
 					"${project}/cherryusb/class/wireless",
+					"${project}/cherryusb/class/video",
 					"${project}/cherryusb/class/vendor",
 					"${project}/cherryusb/class/template",
 					"${project}/cherryusb/class/mtp",
-					"${project}/cherryusb/class/midi",
 					"${project}/cherryusb/class/msc/usbh_msc.c",
+					"${project}/cherryusb/class/msc/usbh_msc.h",
+					"${project}/cherryusb/class/midi",
+					"${project}/cherryusb/class/hub",
 					"${project}/cherryusb/class/hid/usbh_hid.c",
+					"${project}/cherryusb/class/hid/usbh_hid.h",
 					"${project}/cherryusb/class/dfu",
 					"${project}/cherryusb/class/cdc/usbh_cdc_acm.c",
-					"${project}/cherryusb/class/cdc/usbh_cdc_ecm.c",
 					"${project}/cherryusb/class/cdc/usbh_cdc_ncm.c",
+					"${project}/cherryusb/class/cdc/usbh_cdc_ecm.c",
 					"${project}/cherryusb/class/cdc/usbd_cdc_ecm.c",
-					"${project}/cherryusb/class/audio",
+					"${project}/cherryusb/class/audio/usbh_audio.c",
+					"${project}/cherryusb/class/audio/usbh_audio.h",
 					"${project}/cherryusb/class/aoa",
 					"${project}/cherryusb/class/adb",
-					"${project}/cherryusb/demo",
-					"${project}/cherryusb/port/ch32/usb_dc_usbhs.c",
-					"${project}/cherryusb/port/ch32/ch32hs",
-					"${project}/cherryusb/port/ch32/ch58x"
+					"${project}/cherryusb/.github",
+					"${project}/cherryusb/port/ch32/ch32fs"
 				],
 				"riscvTargetProcessor": {
 					"architecture": "rv32i",
