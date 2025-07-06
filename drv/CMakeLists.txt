@@ -1,1 +1,0 @@
-add_subdirectory(${CHIP_FAMILY}_drivers)
