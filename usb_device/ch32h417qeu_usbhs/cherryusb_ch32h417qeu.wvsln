@@ -1,0 +1,9 @@
+D:\project\cherryusb_demo\cherryusb_wch\usb_device\cherryusb_ch32h417qeu\cherryusb_ch32h417qeu.wvsln:
+BuildOrder=cherryusb_ch32h417qeu_V3F
+-arm:${eclipse_home}\toolchain\arm-none-eabi-gcc\bin
+-build:${eclipse_home}\toolchain\Build Tools\bin
+-openocd name:openocd.exe
+-openocd path:${eclipse_home}\toolchain\OpenOCD\bin
+-rv:${eclipse_home}\toolchain\RISC-V Embedded GCC\bin
+D:\project\cherryusb_demo\cherryusb_wch\usb_device\cherryusb_ch32h417qeu\V3F
+..\V3F
