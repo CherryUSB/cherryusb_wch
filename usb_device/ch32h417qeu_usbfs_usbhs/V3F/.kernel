@@ -1,0 +1,26 @@
+{
+	"kernelName": "V3F",
+	"isMaster": true,
+	"debugOptions": {
+		"dualCoreDebug": false,
+		"slaveGDBPort": 3334,
+		"masterGDBPort": 3333
+	},
+	"mate": "",
+	"mergedOptions": {
+		"enabled": false,
+		"mergedList": {
+			"name": "",
+			"filledWith": "0xFF",
+			"files": [
+				{
+					"filePath": "",
+					"offset": ""
+				}
+			]
+		},
+		"downloadMerged": false,
+		"loadMergedBeforeDebug": false,
+		"retainOffsetData": true
+	}
+}

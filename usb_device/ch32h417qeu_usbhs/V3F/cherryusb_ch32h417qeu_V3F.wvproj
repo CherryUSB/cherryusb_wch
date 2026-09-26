@@ -127,7 +127,8 @@
 					"${project}/cherryusb/port/template",
 					"${project}/cherryusb/port/xhci",
 					"${project}/cherryusb/port/wch/legacy",
-					"${project}/cherryusb/port/wch/usbfs"
+					"${project}/cherryusb/port/wch/usbfs",
+					"${project}/cherryusb/class/tmc"
 				],
 				"optimization": {
 					"level": "size",
